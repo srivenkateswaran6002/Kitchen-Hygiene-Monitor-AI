@@ -11,6 +11,9 @@ def extract_frames(video_path, output_folder, fps=1):
     
     count = 0
     success = True
+
+    print("")
+
     while success:
         # Jump to specific frame
         vid.set(cv2.CAP_PROP_POS_FRAMES, count * hop_frames)

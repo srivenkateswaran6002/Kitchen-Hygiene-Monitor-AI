@@ -1,15 +1,41 @@
-import google.generativeai as genai
 import os
-from PIL import Image
+import base64
+from groq import Groq
 from dotenv import load_dotenv
 
 load_dotenv()
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
-model = genai.GenerativeModel('gemini-1.5-flash')
+def encode_image(image_path):
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode('utf-8')
 
 def get_observation(image_path):
-    img = Image.open(image_path)
-    prompt = "Describe the hygiene-related actions in this kitchen frame. Be objective. Use neutral language."
-    response = model.generate_content([prompt, img])
-    return response.text
+    
+    base64_image = encode_image(image_path)
+    
+    try:
+        chat_completion = client.chat.completions.create(
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "Describe the hygiene actions in this frame. If NONE, STRICTLY say 'No activity' and NOTHING ELSE. I want you to describe exactly what the person if any in the image is doing , related to and specific to hygiene related actions like wearing gloves or wearing hair nets or handling meat with bare hands etc."
+                        },
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": f"data:image/jpeg;base64,{base64_image}",
+                            },
+                        },
+                    ],
+                }
+            ],
+            model=os.getenv("INSPECTOR_MODEL"),
+        )
+        return chat_completion.choices[0].message.content
+    except Exception as e:
+        print(f"Groq Error: {e}")
+        return "Error"
