@@ -1,0 +1,19 @@
+# Python / ML
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Node / React
+node_modules/
+build/
+
+# macOS
+.DS_Store
+
+# Project Specific
+*.mp4
+*.avi
+/frames/
+/logs/
