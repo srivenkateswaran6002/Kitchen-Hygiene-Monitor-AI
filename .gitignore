@@ -20,3 +20,5 @@ build/
 
 #UV related
 uv.lock
+core_engine/test2.mov
+uv.lock
