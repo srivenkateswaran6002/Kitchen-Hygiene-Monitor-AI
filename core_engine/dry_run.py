@@ -48,4 +48,4 @@ def dry_run(video_path, output_folder, fps=1):
         time.sleep(1)
 
 if __name__ == "__main__":
-    dry_run("test.mp4", "extracted_frames")
+    dry_run("test2.mov", "extracted_frames")
