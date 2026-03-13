@@ -22,7 +22,7 @@ def get_observation(image_path):
                     "content": [
                         {
                             "type": "text",
-                            "text": "Describe the hygiene actions in this frame. If NONE, STRICTLY say 'No activity' and NOTHING ELSE. I want you to describe exactly what the person if any in the image is doing , related to and specific to hygiene related actions like wearing gloves or wearing hair nets or handling meat with bare hands etc."
+                            "text": "Describe the hygiene actions in this frame.I want you to describe exactly what the person if any in the image is doing , related to and specific to hygiene related actions like wearing gloves or wearing hair nets or handling meat with bare hands etc."
                         },
                         {
                             "type": "image_url",

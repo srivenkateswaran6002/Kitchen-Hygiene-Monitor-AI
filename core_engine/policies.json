@@ -1,0 +1,46 @@
+{
+  "kitchen_id": "STARK-KITCHEN-01",
+  "version": "2026.1",
+  "policies": [
+    {
+      "id": "POL_001",
+      "category": "PPE",
+      "rule": "Mandatory hairnets and beard guards",
+      "description": "All personnel must have hair completely covered by a hairnet or hat. Long hair must be tied back.",
+      "criticality": "HIGH",
+      "violation_triggers": ["Hair visible", "No head covering", "Loose hair over food"]
+    },
+    {
+      "id": "POL_002",
+      "category": "PPE",
+      "rule": "Mandatory gloves for ready-to-eat food",
+      "description": "Disposable gloves must be worn when handling cooked food, salads, or garnishes.",
+      "criticality": "CRITICAL",
+      "violation_triggers": ["Bare hand contact with cooked food", "Dirty gloves"]
+    },
+    {
+      "id": "POL_003",
+      "category": "HYGIENE",
+      "rule": "Handwashing transition",
+      "description": "Staff must wash hands after touching face, phone, trash, or raw protein.",
+      "criticality": "CRITICAL",
+      "violation_triggers": ["Touching face then food without wash", "Trash handling then food prep"]
+    },
+    {
+      "id": "POL_004",
+      "category": "CROSS_CONTAMINATION",
+      "rule": "Raw meat separation",
+      "description": "Raw meat must be handled on RED cutting boards only. Never near vegetables.",
+      "criticality": "CRITICAL",
+      "violation_triggers": ["Raw meat on green board", "Vegetables near raw chicken"]
+    },
+    {
+      "id": "POL_005",
+      "category": "SANITATION",
+      "rule": "Clean as you go",
+      "description": "Prep surfaces must be wiped down and sanitized between different ingredients.",
+      "criticality": "MEDIUM",
+      "violation_triggers": ["Ingredient residue on station", "Dirty cloths left on counter"]
+    }
+  ]
+}
