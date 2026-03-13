@@ -17,6 +17,7 @@ build/
 *.avi
 /frames/
 /logs/
+core_engine/test2.mov
 
 #UV related
 uv.lock
