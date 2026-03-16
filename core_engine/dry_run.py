@@ -47,6 +47,7 @@ def dry_run(video_path, output_folder, fps=1):
         save_to_db(frame, time.strftime("%Y-%m-%dT%H:%M:%S"), verdict)
         print(f"Verdict for {frame} : {verdict}\n")
         print(f">>> END OF FRAME ANALYSIS FOR FRAME : {frame}\n")
+        print("--------------------------------------------------\n")
         time.sleep(1)
 
 if __name__ == "__main__":
