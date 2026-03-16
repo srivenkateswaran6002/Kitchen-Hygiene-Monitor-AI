@@ -46,6 +46,7 @@ def dry_run(video_path, output_folder, fps=1):
         log_to_shared_file(frame, verdict)
         print(f"Verdict for {frame} : {verdict}\n")
         print(f">>> END OF FRAME ANALYSIS FOR FRAME : {frame}\n")
+        print("--------------------------------------------------\n")
         time.sleep(1)
 
 if __name__ == "__main__":

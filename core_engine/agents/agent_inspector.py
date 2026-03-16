@@ -22,7 +22,7 @@ def get_observation(image_path):
                     "content": [
                         {
                             "type": "text",
-                            "text": "Describe the hygiene actions in this frame.I want you to describe exactly what the person if any in the image is doing , related to and specific to hygiene related actions like wearing gloves or wearing hair nets or handling meat with bare hands etc."
+                            "text": "Describe the hygiene actions in this frame.I want you to describe exactly what the person if any in the image is doing , related to and specific to hygiene related actions like wearing gloves or wearing hair nets or handling meat with bare hands etc.I need you to be very specific and detailed about how you are describing the image , you should not fail to describe any part of the image."
                         },
                         {
                             "type": "image_url",

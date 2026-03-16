@@ -18,3 +18,26 @@
 {"timestamp": "2026-03-13T14:27:41.727289", "frame": "frame_7.jpg", "data": "VIOLATION: Mandatory gloves for ready-to-eat food; Mandatory hairnets"}
 {"timestamp": "2026-03-13T14:27:45.411611", "frame": "frame_8.jpg", "data": "VIOLATION: Mandatory hairnets and beard guards; Mandatory gloves for ready-to-eat food"}
 {"timestamp": "2026-03-13T14:27:48.793131", "frame": "frame_9.jpg", "data": "VIOLATION: Mandatory hairnets and beard guards, Mandatory gloves for ready-to-eat food"}
+{"timestamp": "2026-03-16T14:07:41.368621", "frame": "frame_0.jpg", "data": "[VIOLATION] Mandatory hairnets and beard guards; Mandatory gloves for ready-to-eat food"}
+{"timestamp": "2026-03-16T14:08:00.016770", "frame": "frame_1.jpg", "data": "[VIOLATION] - Mandatory hairnets and beard guards; Mandatory gloves for ready-to-eat food"}
+{"timestamp": "2026-03-16T14:08:15.441303", "frame": "frame_10.jpg", "data": "VIOLATION: Mandatory hairnets and beard guards"}
+{"timestamp": "2026-03-16T14:09:29.614956", "frame": "frame_0.jpg", "data": "VIOLATION: Mandatory hairnets and beard guards"}
+{"timestamp": "2026-03-16T14:09:47.435998", "frame": "frame_1.jpg", "data": "VIOLATION: Mandatory gloves for ready-to-eat food."}
+{"timestamp": "2026-03-16T14:10:11.354784", "frame": "frame_10.jpg", "data": "[VIOLATION] Hairnets and beard guards"}
+{"timestamp": "2026-03-16T14:10:30.687002", "frame": "frame_11.jpg", "data": "[VIOLATION] Mandatory hairnets and beard guards."}
+{"timestamp": "2026-03-16T14:10:45.452773", "frame": "frame_12.jpg", "data": "[VIOLATION] Mandatory hairnets and beard guards."}
+{"timestamp": "2026-03-16T14:11:02.956726", "frame": "frame_13.jpg", "data": "VIOLATION: Mandatory gloves for ready-to-eat food"}
+{"timestamp": "2026-03-16T14:11:18.591688", "frame": "frame_14.jpg", "data": "[VIOLATION] - Mandatory hairnets and beard guards"}
+{"timestamp": "2026-03-16T14:11:38.310333", "frame": "frame_15.jpg", "data": "VIOLATION - Policy 1, Policy 2"}
+{"timestamp": "2026-03-16T14:11:54.101401", "frame": "frame_16.jpg", "data": "[VIOLATION] Mandatory hairnets and beard guards; Mandatory gloves for ready-to-eat food"}
+{"timestamp": "2026-03-16T14:12:12.234254", "frame": "frame_17.jpg", "data": "VIOLATION: Mandatory hairnet and beard guard; Mandatory gloves for ready-to-eat food."}
+{"timestamp": "2026-03-16T14:12:35.035832", "frame": "frame_18.jpg", "data": "[VIOLATION] Mandatory hairnets and beard guards"}
+{"timestamp": "2026-03-16T14:12:56.968562", "frame": "frame_19.jpg", "data": "VIOLATION: Mandatory hairnets and beard guards; Mandatory gloves for ready-to-eat food"}
+{"timestamp": "2026-03-16T14:13:24.029688", "frame": "frame_2.jpg", "data": "[VIOLATION] Mandatory gloves for ready-to-eat food."}
+{"timestamp": "2026-03-16T14:13:47.704253", "frame": "frame_3.jpg", "data": "VIOLATION: Mandatory hairnets and beard guards"}
+{"timestamp": "2026-03-16T14:14:14.006185", "frame": "frame_4.jpg", "data": "VIOLATION: Mandatory gloves for ready-to-eat food; Mandatory hairnets and beard guards"}
+{"timestamp": "2026-03-16T14:14:40.266330", "frame": "frame_5.jpg", "data": "VIOLATION\nMandatory hairnets and beard guards\nMandatory gloves for ready-to-eat food"}
+{"timestamp": "2026-03-16T14:15:02.809215", "frame": "frame_6.jpg", "data": "VIOLATION: Mandatory hairnets and beard guards, Mandatory gloves for ready-to-eat food"}
+{"timestamp": "2026-03-16T14:15:23.500137", "frame": "frame_7.jpg", "data": "VIOLATION: Mandatory hairnets and beard guards."}
+{"timestamp": "2026-03-16T14:15:49.816196", "frame": "frame_8.jpg", "data": "[VIOLATION] - Mandatory hairnets and beard guards not worn."}
+{"timestamp": "2026-03-16T14:16:07.041230", "frame": "frame_9.jpg", "data": "[VIOLATION] Mandatory gloves for ready-to-eat food"}
