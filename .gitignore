@@ -17,9 +17,13 @@ build/
 *.avi
 /frames/
 /logs/
+core_engine/test2.mov
 
 #UV related
 uv.lock
 core_engine/test2.mov
 uv.lock
 /core_engine/extracted_frames
+shared/log.json
+uv.lock
+uv.lock

@@ -8,7 +8,7 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-from shared.logger import log_to_shared_file
+from shared.logger import log_to_shared_file, save_to_db
 from core_engine.frames.extractor import extract_frames
 from core_engine.agents.agent_inspector import get_observation
 from core_engine.agents.unified_judge import get_judgement
@@ -44,10 +44,11 @@ def dry_run(video_path, output_folder, fps=1):
         print('>>> Moving to the Judging phase now...\n')
         verdict = get_judgement(observation_text=observation, json_input=policies)
         log_to_shared_file(frame, verdict)
+        save_to_db(frame, time.strftime("%Y-%m-%dT%H:%M:%S"), verdict)
         print(f"Verdict for {frame} : {verdict}\n")
         print(f">>> END OF FRAME ANALYSIS FOR FRAME : {frame}\n")
         print("--------------------------------------------------\n")
         time.sleep(1)
 
 if __name__ == "__main__":
-    dry_run("test.mp4", "extracted_frames")
+    dry_run("test2.mov", "extracted_frames")
